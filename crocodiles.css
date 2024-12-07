@@ -14,7 +14,7 @@
 body {
     color: #101010;
     border-color:#101010;
-    background-color:#ffffff
+    background-color:#FFEEC0
 }
 /* content container to centre content*/
 .container {
@@ -23,7 +23,15 @@ body {
 }
 
 /* default styling for headings*/
-h1, h3,
+h1,
+.alfa-slab-one-regular {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+h3,
     .tangerine-regular {
         font-family: "Tangerine", cursive;
         font-weight: 400;
@@ -112,7 +120,7 @@ img {
 }
 /*blockquote*/
 figure.quote {
-    border-left: 8px solid #D8415C;
+    border-left: 16px solid #000000;
     padding:1.5rem 0 1.5rem 2rem;
     margin-bottom: 2rem;
     }
@@ -149,16 +157,7 @@ header{
         font-size:1.75rem;
         line-height: 1.1;
         }
-    /* colour blocking */
-    .colour-block{
-        padding:3rem 0 3rem 0;
-        background-color:#CBD7DF;
-        margin-bottom:2.5rem;
-        }
-        .highlight {
-            background-color: #D8415C;
-            padding:0 0.5rem;
-            }
+
 /*css grids*/
 .grid {
     display: flex;
