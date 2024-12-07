@@ -1,5 +1,5 @@
 /* import fonts from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Tangerine:wght@400;700&display=swap');
 
 /* css reset */ 
 
@@ -23,11 +23,19 @@ body {
 }
 
 /* default styling for headings*/
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Playfair Display", Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.1;
-    font-weight: 700;
-}
+h1, h3,
+    .tangerine-regular {
+        font-family: "Tangerine", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .tangerine-bold {
+        font-family: "Tangerine", cursive;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
 
 /* specific styles*/
 h1 {
@@ -50,38 +58,36 @@ h4 {
     margin-bottom: 0.5rem;
 }
 
-p{
-    font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-    font-size: 1.125rem;
-    margin-bottom: 1.5rem;
-    font-style: normal;
-}
+h2, h4, h5, h6, p
+    .bentham-regular {
+        font-family: "Bentham", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
 
 /*paragraph large */
-p.large {
-    font-family: "Playfair Display", Georgia, 'Times New Roman', Times,
-    serif;
+p.large 
+.bentham-regular {
+    font-family: "Bentham", serif;
     font-weight: 400;
-    font-style: italic;
-    line-height: 1.5;
-    font-size: 1.5rem;
-    margin-bottom: 2.5rem;
-    }
+    font-style: normal;
+  }
+  
 
  ul {
         list-style: disc outside;
         margin-bottom: 1.5rem;
         margin-left: 1.25rem;
         }
-        ul li {
-        font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
-        font-weight: 400;
-        line-height: 1.5;
-        font-size: 1.125rem;
-        margin-bottom: .5rem;
-        }
+        ul li 
+        .bentham-regular {
+            font-family: "Bentham", serif;
+            font-weight: 400;
+            font-style: normal;
+          }
+          
 /* hyperlinks */
 a {
     font-family:inherit;
