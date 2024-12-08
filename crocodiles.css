@@ -120,7 +120,7 @@ img {
 }
 /*blockquote*/
 figure.quote {
-    border-left: 16px solid #000000;
+    border-left: 8px solid #000000;
     padding:1.5rem 0 1.5rem 2rem;
     margin-bottom: 2rem;
     }
@@ -234,4 +234,4 @@ header{
                     padding:2rem 0;
                     margin-bottom:2rem;
                     }
-                    
+
