@@ -101,13 +101,13 @@ a {
     font-family:inherit;
     font-size:inherit;
     line-height: inherit;
-    color: #006bc3;
+    color: #c20303;
     }
     a:hover {
-        color:#00447B;
+        color:#c00000;
         }
         a:visited {
-        color:#6935d2;
+        color:#ffb300;
         }
 
 /* images*/
